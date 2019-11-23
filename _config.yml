@@ -1,6 +1,6 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'SoCalledBlogger'
+description: 'SoCalledBlogger is a site where you find articles to create a better blog.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
