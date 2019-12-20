@@ -3,7 +3,7 @@ name: 'So Called Blogger'
 description: 'SoCalledBlogger is a site where you find articles to create a better blog.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: ''
+baseurl: /
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
