@@ -7660,12 +7660,7 @@ html {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-  @media (max-width: 580px) {
-    .col-md-3 {
-      flex: 100%;
-      max-width: 100%; }
-  }
-  
+    
 @media (min-width: 768px) {
   .col-md {
     flex-basis: 0;
