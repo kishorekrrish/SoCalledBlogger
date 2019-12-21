@@ -510,13 +510,9 @@ pre {
   padding-right: 15px;
   padding-left: 15px; }
 
-.desktop {
-  display:none;  
-}
-
-  .mobileShow {
-     display:block;
-  }
+.col-md-3 {
+  flex: 0 0 35%;
+  max-width: 35%; }
 
 .col {
   flex-basis: 0;
@@ -772,9 +768,6 @@ pre {
   .col-md-3 {
     flex: 0 0 35%;
     max-width: 35%; }
-  .mobileShow {
-      display:none;
-   }
   .col-md-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
@@ -7426,13 +7419,10 @@ html {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
-.desktop {
-  display:none;
-}
 
-.mobileShow {
-   display:block;
-}
+.col-md-3 {
+  flex: 0 0 35%;
+  max-width: 35%; }
 
 .col {
   flex-basis: 0;
@@ -7689,9 +7679,6 @@ html {
   .col-md-3 {
     flex: 0 0 35%;
     max-width: 35%; }
-  .mobileShow {
-      display:none;
-   }
   .col-md-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
