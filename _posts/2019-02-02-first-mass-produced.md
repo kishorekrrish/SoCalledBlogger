@@ -49,7 +49,7 @@ var myChart = new Chart(ctx, {
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
 |  Parameter  |  Description  |
-|-----|----|
+|-------|-------|
 |  index  |  Required. An integer that specifies at what position to add/remove items, Use negative values to specify the position from the end of the array | 
 |  count  |  Optional. The number of items to be removed. If set to 0, no items will be removed  |
 |  item1, ..., itemX  |  Optional. The new item(s) to be added to the array  |
