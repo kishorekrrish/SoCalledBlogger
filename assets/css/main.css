@@ -518,6 +518,10 @@ pre {
   display: block;
 }
 
+.desktop {
+  display: none;
+}
+
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -774,6 +778,9 @@ pre {
     max-width: 35%; }
   .mobileHide {
     display: none;
+  }
+  .desktop {
+    display: block;
   }
   .col-md-4 {
     flex: 0 0 33.33333%;
@@ -7435,6 +7442,10 @@ html {
   display: block;
 }
 
+.desktop {
+  display: none;
+}
+
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -7691,6 +7702,9 @@ html {
     max-width: 35%; }
   .mobileHide {
     display: none;
+  }
+  .desktop {
+    display: block;
   }
   .col-md-4 {
     flex: 0 0 33.33333%;
