@@ -48,7 +48,7 @@ var myChart = new Chart(ctx, {
 
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
-<div class="datatable-begin"></div>
+<div class="datatable"></div>
 
 Food    | Description                           | Category | Sample type
 ------- | ------------------------------------- | -------- | -----------

@@ -8496,3 +8496,17 @@ html {
     align-self: baseline !important; }
   .align-self-xl-stretch {
     align-self: stretch !important; } }
+
+.datatable table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:2px solid #ff0000;
+}
+
+.datatable th{
+  border:2px solid #000000;
+}
+
+.datatable td{
+  border:1px solid #000000;
+}
