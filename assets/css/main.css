@@ -519,7 +519,7 @@ pre {
 }
 
 .desktop {
-  display: none !important;
+  display: none;
 }
 
 .col {
@@ -7443,7 +7443,7 @@ html {
 }
 
 .desktop {
-  display: none !important;
+  display: none;
 }
 
 .col {
