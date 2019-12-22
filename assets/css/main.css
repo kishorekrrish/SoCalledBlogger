@@ -517,8 +517,8 @@ pre {
 .mobileShow { display: none;}
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-width : 320px)
-and (max-width : 480px){ .mobileShow { display: inline;}}
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobileShow { display: inline;}}
 
 .col {
   flex-basis: 0;
@@ -7437,8 +7437,8 @@ html {
 .mobileShow { display: none;}
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-width : 320px)
-and (max-width : 480px){ .mobileShow { display: inline;}}
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobileShow { display: inline;}}
 
 .col {
   flex-basis: 0;
