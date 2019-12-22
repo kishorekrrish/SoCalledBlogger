@@ -8532,5 +8532,9 @@ html {
     }
     
     table tr th :last-child, table tr td :last-child {
-      margin-bottom: 5px;
+      margin-bottom: 0;
+    }
+
+    table {
+      margin-bottom: 20px;
     }
