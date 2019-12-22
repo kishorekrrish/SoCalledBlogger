@@ -28,7 +28,7 @@ var myChart = new Chart(ctx, {
     labels: years,
     datasets: [
       { 
-        label: Dataset,
+        label: "Dataset",
         data: africa,
         backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
