@@ -8536,5 +8536,5 @@ html {
     }
 
     table {
-      margin-bottom: 20;
+      margin-bottom: 20 !important;
     }
