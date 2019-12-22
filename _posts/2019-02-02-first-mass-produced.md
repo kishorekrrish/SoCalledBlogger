@@ -25,9 +25,10 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'line',
   data: {
-    label: years,
+    labels: years,
     datasets: [
       { 
+        label: Dataset,
         data: africa,
         backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
