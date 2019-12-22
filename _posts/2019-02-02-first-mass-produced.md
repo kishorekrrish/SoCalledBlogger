@@ -48,6 +48,17 @@ var myChart = new Chart(ctx, {
 
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
+<div class="datatable-begin"></div>
+
+Food    | Description                           | Category | Sample type
+------- | ------------------------------------- | -------- | -----------
+Apples  | A small, somewhat round ...           | Fruit    | Fuji
+Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
+Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
+Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
+
+<div class="datatable-end"></div>
+
 |  Parameter  |  Description  |
 |-------|-------|
 |  index  |  Required. An integer that specifies at what position to add/remove items, Use negative values to specify the position from the end of the array | 
