@@ -10,6 +10,12 @@ The first mass-produced book to deviate from a rectilinear format, at least in t
 
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
+|  Parameter  |  Description  |
+|-----|----|
+|  index  |  Required. An integer that specifies at what position to add/remove items, Use negative values to specify the position from the end of the array | 
+|  count  |  Optional. The number of items to be removed. If set to 0, no items will be removed  |
+|  item1, ..., itemX  |  Optional. The new item(s) to be added to the array  |
+
 > It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story. 
 
 The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
