@@ -12,7 +12,7 @@ permalink: "/blogger.html"
             </div>
         </div>
         <h4 class="font-weight-bold spanborder"><span>Complete guide to, {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"category","tutorial" %}
+            {% assign posts = site.posts | where:"categories","tutorial" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}
