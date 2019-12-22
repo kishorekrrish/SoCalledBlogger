@@ -7,6 +7,7 @@ image: assets/images/4.jpg
 tags: [featured]
 toc: true
 beforetoc: "Test toc"
+permalink: /hello
 ---
 There are lots of powerful things you can do with the Markdown editor
 
