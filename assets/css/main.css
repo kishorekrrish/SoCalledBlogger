@@ -7345,17 +7345,17 @@ a.text-lightblue:hover, a.text-lightblue:focus {
       background-color: #fff !important; }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #dee2e6 !important; }
+    border: 1px solid #76797c !important; }
   .table-dark {
     color: inherit; }
     .table-dark th,
     .table-dark td,
     .table-dark thead th,
     .table-dark tbody + tbody {
-      border-color: #dee2e6; }
+      border-color: #76797c; }
   .table .thead-dark th {
     color: inherit;
-    border-color: #dee2e6; } }
+    border-color: #76797c; } }
 
 /*!
  * Bootstrap Grid v4.1.3 (https://getbootstrap.com/)
