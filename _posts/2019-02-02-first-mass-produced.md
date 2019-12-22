@@ -48,7 +48,7 @@ var myChart = new Chart(ctx, {
 
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
-<div class="datatable"></div>
+<div class="datatable">
 
 Food    | Description                           | Category | Sample type
 ------- | ------------------------------------- | -------- | -----------
@@ -57,6 +57,7 @@ Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
 Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
 Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
 
+</div>
 <div class="datatable-end"></div>
 
 |  Parameter  |  Description  |
