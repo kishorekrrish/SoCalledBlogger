@@ -8497,16 +8497,26 @@ html {
   .align-self-xl-stretch {
     align-self: stretch !important; } }
 
- table{
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  border-spacing: 0;
-  border:2px solid #ff0000 !important;
+  width: 100%;
 }
 
- th{
-  border:2px solid #000000 !important;
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
- td{
-  border:1px solid #000000 !important;
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(16, 74, 182, 0.37);
+  color: white;
 }
