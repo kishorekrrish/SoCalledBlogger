@@ -8,6 +8,33 @@ tags: [featured]
 ---
 The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter. 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css"></script>
+<canvas id="myChart" width="1600" height="900"></canvas>
+<script>
+// Our labels along the x-axis
+var years = [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050];
+// For drawing the lines
+var africa = [86,114,106,106,107,111,133,221,783,2478];
+var asia = [282,350,411,502,635,809,947,1402,3700,5267];
+var europe = [168,170,178,190,203,276,408,547,675,734];
+var latinAmerica = [40,20,10,16,24,38,74,167,508,784];
+var northAmerica = [6,3,2,2,7,26,82,172,312,433];
+
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      { 
+        data: africa
+      }
+    ]
+  }
+});
+</script>
+
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
 |  Parameter  |  Description  |
