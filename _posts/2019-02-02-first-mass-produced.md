@@ -49,6 +49,7 @@ var myChart = new Chart(ctx, {
 An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll... originated with us”. 
 
 
+{.table .table-bordered }
 Food    | Description                           | Category | Sample type
 ------- | ------------------------------------- | -------- | -----------
 Apples  | A small, somewhat round ...           | Fruit    | Fuji
