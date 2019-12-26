@@ -2,7 +2,16 @@
 title: "test"
 layout: default
 permalink: "/test.html"
+myValue : ""
 ---
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("mySelect").value;
+        {% assign myValue = x %}
+    }
+</script>
+
 <ul>
     {% for member in site.data.members %}
     <li>
@@ -27,6 +36,11 @@ permalink: "/test.html"
         <div class="col-md-4 col-sm-6">
           <div class="pricing-table">
             <div class="table-header">
+                    <select id="mySelect" onchange="myFunction()">
+                        <option value="Eric Mill">Eric Mill</option>
+                        <option value="Parker Moore">Parker Moore</option>
+                        <option value="Liu Fengyun">Liu Fengyun</option>
+                    </select>
               <h3>
                 Bluehost
               </h3>
@@ -38,7 +52,7 @@ permalink: "/test.html"
             </div>
             <div class="plan-info">
             {% for member in site.data.members %}
-              {% if member.name == 'Eric Mill' %}
+              {% if member.name == {{ myValue }}' %}
               <p>
                 {{ member.name }}
               </p>
