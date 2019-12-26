@@ -57,7 +57,7 @@ myvalue : Eric Mill
             </div>
             <div class="plan-info">
             {% for member in site.data.members %}
-              {% if member.name == {{ site.page.myvalue }} %}
+              {% if member.name == {{ page.myvalue }} %}
               <p>
                 {{ member.name }}
               </p>
