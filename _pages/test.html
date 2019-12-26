@@ -2,13 +2,16 @@
 title: "test"
 layout: default
 permalink: "/test.html"
-myValue : Eric Mill
+myvalue : Eric Mill
 ---
 
 <script>
     function myFunction() {
         var x = document.getElementById("mySelect").value;
-        {% assign page.myValue = x %}
+        console.log("value 1", x);
+        console.log("value 2", {{ page.myvalue }});
+        {% assign page.myvalue = x %}
+        console.log("value 3", {{ page.myvalue }});
     }
 </script>
 
@@ -52,7 +55,7 @@ myValue : Eric Mill
             </div>
             <div class="plan-info">
             {% for member in site.data.members %}
-              {% if member.name == {{ page.myValue }} %}
+              {% if member.name == {{ page.myvalue }} %}
               <p>
                 {{ member.name }}
               </p>
