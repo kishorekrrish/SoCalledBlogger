@@ -5,7 +5,7 @@ permalink: "/test.html"
 myvalue : Eric Mill
 ---
 
-{% javascript %}
+<script>
   console.log('hello world');
 
     function myFunction() {
@@ -15,7 +15,7 @@ myvalue : Eric Mill
         
         console.log("value 3", {{ page.myvalue }});
     }
-    {% endjavascript %}
+</script>
 
 <ul>
     {% for member in site.data.members %}
