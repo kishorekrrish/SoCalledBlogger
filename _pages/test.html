@@ -8,7 +8,7 @@ myValue : ""
 <script>
     function myFunction() {
         var x = document.getElementById("mySelect").value;
-        {% assign myValue = x %}
+        {% assign page.myValue = x %}
     }
 </script>
 
@@ -52,7 +52,7 @@ myValue : ""
             </div>
             <div class="plan-info">
             {% for member in site.data.members %}
-              {% if member.name == {{ myValue }}' %}
+              {% if member.name == {{ page.myValue }}' %}
               <p>
                 {{ member.name }}
               </p>
