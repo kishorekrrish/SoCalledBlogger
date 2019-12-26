@@ -37,10 +37,12 @@ permalink: "/test.html"
               </h3>
             </div>
             <div class="plan-info">
-            {% for member in site.data.members where member.name == 'Eric Mill'%}
+            {% for member in site.data.members %}
+              {% if member.name == 'Eric Mill' %}
               <p>
                 {{ member.name }}
               </p>
+              {% endif %}        
             {% endfor %}
               <div class="button-area">
                 <a class="btn btn-common" href="#">
