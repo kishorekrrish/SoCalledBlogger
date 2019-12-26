@@ -5,7 +5,9 @@ permalink: "/test.html"
 myvalue : Eric Mill
 ---
 
-<script>
+{% javascript %}
+  console.log('hello world');
+
     function myFunction() {
         var x = document.getElementById("mySelect").value;
         console.log("value 1", x);
@@ -13,7 +15,7 @@ myvalue : Eric Mill
         {% assign page.myvalue = x %}
         console.log("value 3", {{ page.myvalue }});
     }
-</script>
+    {% endjavascript %}
 
 <ul>
     {% for member in site.data.members %}
