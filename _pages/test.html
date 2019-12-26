@@ -1,9 +1,14 @@
+---
+title: "test"
+layout: default
+permalink: "/test.html"
+---
 <ul>
     {% for member in site.data.members %}
-      <li>
+    <li>
         <a href="{{ site.baseurl }}/{{ member.github }}">
-          {{ member.name }}
+            {{ member.name }}
         </a>
-      </li>
+    </li>
     {% endfor %}
-    </ul>
+</ul>
