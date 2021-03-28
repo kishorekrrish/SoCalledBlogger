@@ -8538,3 +8538,7 @@ html {
     table {
       margin-bottom: 50px !important;
     }
+
+    .font-white {
+      color: white;
+    }
