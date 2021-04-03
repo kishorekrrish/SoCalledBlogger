@@ -6,7 +6,6 @@ categories: [ salesforce ]
 permalink: /change-css-lightning-button.html
 description: One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
 image: assets/images/demo1.jpg
-toc: true
 beforetoc: "One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
 author: kishore
 ---
