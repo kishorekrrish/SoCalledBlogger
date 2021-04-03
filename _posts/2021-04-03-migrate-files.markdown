@@ -1,17 +1,20 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: Migrate Attachments from One Org to another Using Data Loader
+date: '2021-04-03T17:25:00.000+05:30'
 categories: [ salesforce ]
+permalink: /change-css-lightning-button.html
+description: One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
+image: assets/images/demo1.jpg
+toc: false
+beforetoc: "One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
+author: kishore
 ---
-# Migrate Attachments from One Org to another Using Data Loader
 
-One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
 Let us consider 2 orgs, one is source org where all attachments are present and the other is destination org where attachments have to migrate.
 
-```mermaid
-graph LR
-A[Source] ----> B[Destination]
-```
+`[Source] ----> B[Destination]`
+
 
 ## Steps To Be Executed
 
