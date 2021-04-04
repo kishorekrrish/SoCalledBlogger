@@ -18,7 +18,7 @@ Let us consider 2 orgs, one is source org where all attachments are present and 
 {:toc}
 
 ## Export Attachments using Salesforce standard Data Export feature
-Go to Salesforce setup, in Quick find box search for Export and select Data Export under Data. Click on `Export Now` or if you want to schedule and export you can do that using "Schedule Export".
+Go to Salesforce setup, in Quick find box search for Export and select Data Export under Data. Click on `Export Now` or if you want to schedule and export you can do that using `Schedule Export`.
 
 ![Export Button]({{ site.baseurl }}/assets/images/attachments/data-export-button.png)
 
@@ -32,7 +32,9 @@ under exported data select `include all data` for all attachments or select indi
 
 Salesforce adds your export to the queue and sends you a confirmation email with a link after the export is complete.
 Open the link provided in the email and download exported zip folders.
-The first zip folder contains all CSV files along with attachments, downloaded attachments are named after their ID with extension type file, which we can ignore as we are only interested in the path and not the actual file. 
+The first zip folder contains all CSV files along with attachments.
+
+> Downloaded attachments are named after their ID with extension type file, you don't need to panic.
 
 ![ Attachments ]({{ site.baseurl }}/assets/images/attachments/attachments-noext.png)
 
