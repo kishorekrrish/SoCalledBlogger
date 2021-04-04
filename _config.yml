@@ -20,7 +20,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    kishore:
       name:           kishore
       site:           https://kishorekrrish.github.io/SoCalledBlogger/
       avatar:         /assets/images/avatar1.jpg
