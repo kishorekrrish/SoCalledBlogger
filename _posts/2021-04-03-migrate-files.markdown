@@ -5,7 +5,7 @@ date: '2021-04-03T17:25:00.000+05:30'
 categories: [ salesforce ]
 permalink: /migrate-attachments-salesforce-data-loader.html
 description: One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
-image: assets/images/demo1.jpg
+image: assets/images/attachments/header.png
 beforetoc: "One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
 author: kishore
 ---
