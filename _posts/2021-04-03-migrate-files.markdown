@@ -3,7 +3,7 @@ layout: post
 title: Migrate Attachments from One Org to another Using Data Loader
 date: '2021-04-03T17:25:00.000+05:30'
 categories: [ salesforce ]
-permalink: /change-css-lightning-button.html
+permalink: /migrate-attachments-salesforce-data-loader.html
 description: One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
 image: assets/images/demo1.jpg
 beforetoc: "One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
@@ -12,21 +12,13 @@ author: kishore
 
 Let us consider 2 orgs, one is source org where all attachments are present and the other is destination org where attachments have to migrate.
 
-`[Source] ----> B[Destination]`
+`[Source] -----------> [Destination]`
 
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-
-## Steps To Be Executed
-
- 1. Export Attachments using Salesforce standard Data Export feature.
- 2. Create Attachments CSV.
- 3. Map attachment file path in Attachment CSV body column.
- 4. Import attachments to destination org using Data Loader.
-
-## Export Attachments using Salesforce standard "Data Export" feature
-Go to Salesforce setup, in Quick find box search for Export and select Data Export under Data. Click on "Export Now" or if you want to schedule and export you can do that using "Schedule Export".
+## Export Attachments using Salesforce standard Data Export feature
+Go to Salesforce setup, in Quick find box search for Export and select Data Export under Data. Click on `Export Now` or if you want to schedule and export you can do that using "Schedule Export".
 
 ![Export Button]({{ site.baseurl }}/assets/images/attachments/data-export-button.png)
 
@@ -69,4 +61,4 @@ Now you are just one step away!
 
 ![ dataloader ]({{ site.baseurl }}/assets/images/attachments/dataloader-allfiles.png)
 
-In Data Loader, under settings keep the batch size as 1 or calculate batch size for loading attachments. Select insert operation and check `Show all Salesforce objects` option and select `Attachment` object. Map ParentId, Body, and Name Salesforce fields and perform the Insert operation. If you are new to data loader and don't know how to use it then please refer [Learn how to use salesforce data loader](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/inserting_updating_or_deleting_data.htm).
+In Data Loader, under settings keep the batch size as 1 or calculate batch size for loading attachments. Select insert operation and check `Show all Salesforce objects` option and select `Attachment` object. Map ParentId, Body, and Name Salesforce fields and perform the Insert operation. If you are new to data loader and don't know how to use it then please refer [Learn how to use salesforce data loader](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/inserting_updating_or_deleting_data.htm){:rel="nofollow"}{:target="_blank"}.
