@@ -39,7 +39,7 @@ The first zip folder contains all CSV files along with attachments.
 
 ![ Attachments ]({{ site.baseurl }}/assets/images/attachments/attachments-noext.png)
 
-If you want to see the actual file with the proper extension you can refer to [Rename Attachments with Proper Extension](https://www.salesforcelwc.in/rename-attachments)<i class="fas fa-external-link-alt"></i>. Move all attachments into one folder.
+If you want to see the actual file with the proper extension you can refer to [Rename Attachments with Proper Extension <i class="fas fa-external-link-alt"></i>](https://www.salesforcelwc.in/rename-attachments). Move all attachments into one folder.
 
 ![Exported Files]({{ site.baseurl }}/assets/images/attachments/exported-files.png)
 
