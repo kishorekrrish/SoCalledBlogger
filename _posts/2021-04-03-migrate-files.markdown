@@ -4,9 +4,9 @@ title: Migrate Attachments from One Org to another Using Salesforce Data Loader
 date: '2021-04-03T17:25:00.000+05:30'
 categories: [ salesforce ]
 permalink: /migrate-attachments-salesforce-data-loader.html
-description: One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
+description: Wondering how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
 image: assets/images/attachments/header.png
-beforetoc: "One might wonder how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
+beforetoc: "Wondering how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that."
 author: kishore
 ---
 Wondering how to migrate attachments from one Salesforce org to another Salesforce org using Data Loader. Here is a practical guide on how to do that.
@@ -39,7 +39,7 @@ The first zip folder contains all CSV files along with attachments.
 
 ![ Attachments ]({{ site.baseurl }}/assets/images/attachments/attachments-noext.png)
 
-If you want to see the actual file with the proper extension you can refer to [Rename Attachments with Proper Extension](https://www.salesforcelwc.in/rename-attachments). Move all attachments into one folder.
+If you want to see the actual file with the proper extension you can refer to [Rename Attachments with Proper Extension](https://www.salesforcelwc.in/rename-attachments)<i class="fas fa-external-link-alt"></i>. Move all attachments into one folder.
 
 ![Exported Files]({{ site.baseurl }}/assets/images/attachments/exported-files.png)
 
