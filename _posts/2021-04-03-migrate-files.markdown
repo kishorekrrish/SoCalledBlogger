@@ -19,6 +19,7 @@ Let us consider 2 orgs, one is source org where all attachments are present and 
 {:toc}
 
 ## Export Attachments using Salesforce standard Data Export feature
+
 Go to Salesforce setup, in Quick find box search for Export and select Data Export under Data. Click on `Export Now` or if you want to schedule and export you can do that using `Schedule Export`.
 
 ![Export Button]({{ site.baseurl }}/assets/images/attachments/data-export-button.png)
@@ -44,6 +45,7 @@ If you want to see the actual file with the proper extension you can refer to [R
 ![Exported Files]({{ site.baseurl }}/assets/images/attachments/exported-files.png)
 
 ## Modify Attachments CSV
+
 Make sure that the CSV file you want to use for attachment importing contains these required columns. Each column represents a Salesforce field.
 
 -   ParentId—Salesforce ID of the parent record

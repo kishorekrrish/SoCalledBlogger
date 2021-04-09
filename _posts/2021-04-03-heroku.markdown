@@ -1,0 +1,43 @@
+---
+layout: post
+title: Getting Started With Heroku
+date: '2021-04-03T17:25:00.000+05:30'
+categories: [ heroku ]
+permalink: /heroku.html
+description: Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages.
+image: assets/images/attachments/header.png
+toc: true
+beforetoc: "Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages."
+author: kishore
+---
+
+## What is Heroku ?
+
+Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages.
+
+## Heroku Application
+
+> **This definition is from Heroku documentation.
+
+Replace this with image
+An application is a collection of _source code_ written in one of these languages, perhaps a framework, and some _dependency description_ that instructs a build system as to which additional dependencies are needed in order to build and run the application.
+
+## What Can You Do With Heroku
+
+You can build an application in any language and deploy it in Heroku without changing your code and avoid the hassle of maintaining your own on-premise infrastructure.
+
+## Architecture of Heroku
+
+Apps on Heroku are given a unique domain to route HTTP request to correct application container or Dyno. Dyno is one of many Dynos in a Dyno Grid which consists of several servers. Heroku's git server handles application repository pushes from permitted users.
+
+## Products Offered By Heroku
+
+* The Heroku Platform
+* Heroku Postgress
+* Heroku Redis
+* Heroku Kafka
+* Heroku Teams
+* Heroku Enterprise
+* Heroku Connect
+* Heroku Elements
+* Heroku Buttons
