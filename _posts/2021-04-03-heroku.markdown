@@ -11,6 +11,9 @@ beforetoc: "Heroku is a cloud application platform that enables developers to de
 author: kishore
 ---
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
 ## What is Heroku ?
 
 Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages.
