@@ -6,7 +6,6 @@ categories: [ heroku ]
 permalink: /heroku.html
 description: Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages.
 image: assets/images/attachments/header.png
-toc: true
 beforetoc: "Heroku is a cloud application platform that enables developers to deploy, scale and manage applications written in any language. By default Heroku supports `Ruby`, `Node.js`, `Python`, `PHP`, `Java`, `Scala`, `Go` and `Clojure` languages."
 author: kishore
 ---
