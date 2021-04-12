@@ -31,7 +31,7 @@ We are going to deep dive into each of the methods in further chapters, But for 
 
 ### `Method 1:` Earn Money By Showing Ads On Your Website
 
-**Are you crazy!!** Who is going to display ads on my blog, you might think. But there are many services and companies that are ready to display ads on your blog and pay you. There are many Ad companies just to name a few like `Google Adsense`, `Taboola`, `Propeller Ads`, `Media.net`, and many more. Just to give you some idea let me give you an example of how this works, let's say that the content that you write is related to fictional stories and one of your stories has some reference to a good selling novel, you can contact that novel publishing agency to display ad on your blog which will earn them more sales from your website viewers.
+**Are you crazy!!** Who is going to display ads on my blog, you might think. But there are many services and companies that are ready to display ads on your blog and pay you. There are many Ad companies to name a few like `Google Adsense`, `Taboola`, `Propeller Ads`, `Media.net`, and many more.
 
 ### `Method 2:` Earn Money By Affiliate Marketing
 
