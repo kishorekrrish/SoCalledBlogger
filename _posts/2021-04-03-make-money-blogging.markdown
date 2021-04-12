@@ -5,7 +5,7 @@ date: '2021-04-03T17:25:00.000+05:30'
 categories: [ blogging ]
 permalink: /make-money-blogging.html
 description: In this digital age, we can make money online in many ways. One of the best way and most effective ways is by blogging.
-image: assets/images/blogging/blogging-header.png
+image: assets/images/blogging/blogging-header1.png
 beforetoc: "In this digital age, we can make money online in many ways. One of the best way and most effective ways is by blogging."
 author: kishore
 ---
